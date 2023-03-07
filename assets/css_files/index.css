@@ -46,3 +46,12 @@
     position: relative;
     left: 74.8%;
 }
+
+@media (max-width: 768px)
+{
+    .nav_bar
+    {
+        flex-direction: column;
+        height: auto;
+    }
+}
