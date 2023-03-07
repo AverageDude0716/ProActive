@@ -9,7 +9,7 @@
     transition: background-color 1s ease;
 }
 
-.nav_bar 
+.nav_bar
 {
     background-color: #333;
     overflow: hidden;
@@ -41,11 +41,26 @@
     color: white;
 }
 
+.menu_icon
+{
+    display: none;
+    cursor: pointer;
+}
+
+.menu_bar
+{
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
 .login
 {
-    position: relative;
-    left: 74.8%;
+    color: #f2f2f2;
 }
+
+
 
 @media (max-width: 768px)
 {
@@ -54,4 +69,16 @@
         flex-direction: column;
         height: auto;
     }
+
+    .menu_icon
+    {
+        display: block;
+    }
+
+    .menu_bar
+    {
+        display: none;
+    }
+
+
 }
