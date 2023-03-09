@@ -75,12 +75,12 @@
         display: none;
     }
       
-      .menu-icon 
+      .menu_icon 
       {
         display: block;
       }
       
-      .menu-icon:hover 
+      .menu_icon:hover 
       {
         color: #ccc;
       }
