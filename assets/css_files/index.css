@@ -9,76 +9,54 @@
     transition: background-color 1s ease;
 }
 
-nav 
-{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: #fff;
     padding: 10px;
-}
+  }
   
-  .menu 
-  {
+  .menu {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
   }
   
-  .menu li 
-  {
+  .menu li {
     margin-right: 20px;
   }
   
-  .menu a 
-  {
+  .menu a {
     color: #fff;
     text-decoration: none;
   }
   
-  .menu-icon 
-  {
-    display: none;
-    font-size: 24px;
-  }
-  
-  .login
-  {
-    color: #fff;
-    text-decoration: none;
-  }
-
-  @media (max-width: 768px) 
-  {
-    .menu 
-    {
+  @media screen and (max-width: 768px) {
+    .menu {
       display: none;
     }
     
-    .menu-icon 
-    {
+    .menu-icon {
       display: block;
+      font-size: 24px;
     }
     
-    .menu-icon i 
-    {
+    .menu-icon i {
       cursor: pointer;
     }
     
-    .menu-icon i.fa-times 
-    {
+    .menu-icon i.fa-times {
       display: none;
     }
     
-    .menu-icon i.fa-bars 
-    {
+    .menu-icon i.fa-bars {
       display: block;
     }
     
-    .menu.active 
-    {
+    .menu.active {
       display: flex;
       flex-direction: column;
       position: absolute;
@@ -89,24 +67,20 @@ nav
       padding: 10px;
     }
     
-    .menu.active li 
-    {
+    .menu.active li {
       margin-right: 0;
       margin-bottom: 10px;
     }
     
-    .menu.active a 
-    {
+    .menu.active a {
       color: #fff;
     }
     
-    .menu.active i.fa-bars 
-    {
+    .menu.active i.fa-bars {
       display: none;
     }
     
-    .menu.active i.fa-times 
-    {
+    .menu.active i.fa-times {
       display: block;
     }
   }
