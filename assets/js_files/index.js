@@ -9,10 +9,8 @@ setInterval(function()
 
 })
 
-$('.menu-icon').click(function() 
-{
-    
+$('.menu-icon').click(function() {
     $('.menu').toggleClass('active');
     $('.menu-icon i').toggleClass('fa-bars fa-times');
+  });
   
-});
