@@ -62,7 +62,6 @@
     color: #fff;
     font-size: 18px;
     margin: 1%;
-    position: fixed;
   }
   
   @media (max-width: 768px) 
@@ -101,5 +100,10 @@
       margin-bottom: 10px;
     }
 
+    .login
+    {
+        position: relative;
+        bottom: 90%;
+    }
 }
   
