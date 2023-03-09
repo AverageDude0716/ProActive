@@ -9,29 +9,17 @@
     transition: background-color 1s ease;
 }
 
-.nav_bar
+nav 
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #333;
     color: #fff;
-    font-size: 18px;
+    padding: 10px;
 }
-
-.tabs 
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    font-size: 18px;
-    padding: 20px;
-  }
   
-  
-  .menu_bar 
+  .menu 
   {
     display: flex;
     list-style: none;
@@ -39,67 +27,86 @@
     padding: 0;
   }
   
-  .menu_bar li 
+  .menu li 
   {
-    margin-left: 20px;
+    margin-right: 20px;
   }
   
-  .menu_bar li a 
+  .menu a 
   {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
   }
   
-  .menu_icon 
+  .menu-icon 
   {
     display: none;
     font-size: 24px;
-    cursor: pointer;
   }
-
+  
   .login
   {
     color: #fff;
-    font-size: 18px;
-    margin: 1%;
+    text-decoration: none;
   }
-  
-  @media (max-width: 768px) 
+
+  @media screen and (max-width: 768px) 
   {
-    .menu_bar 
+    .menu 
     {
       display: none;
     }
     
-    .menu_icon 
+    .menu-icon 
     {
       display: block;
     }
     
-    .menu_icon:hover 
+    .menu-icon i 
     {
-      color: #ccc;
+      cursor: pointer;
     }
     
-    .tabs
+    .menu-icon i.fa-times 
     {
-      flex-direction: column;
-      align-items: flex-start;
-      z-index: 1;
+      display: none;
     }
     
-    .menu_bar.show 
+    .menu-icon i.fa-bars 
+    {
+      display: block;
+    }
+    
+    .menu.active 
     {
       display: flex;
       flex-direction: column;
-      margin-top: 20px;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #444;
+      padding: 10px;
     }
     
-    .menu_bar.show li 
+    .menu.active li 
     {
-      margin-left: 0;
+      margin-right: 0;
       margin-bottom: 10px;
     }
-
-}
-  
+    
+    .menu.active a 
+    {
+      color: #fff;
+    }
+    
+    .menu.active i.fa-bars 
+    {
+      display: none;
+    }
+    
+    .menu.active i.fa-times 
+    {
+      display: block;
+    }
+  }
