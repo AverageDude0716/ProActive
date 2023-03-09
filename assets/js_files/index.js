@@ -9,10 +9,10 @@ setInterval(function()
 
 })
 
-const menu_icon = document.querySelector(".menu_icon");
-const menu_bar = document.querySelector(".menu_bar");
-
-menu_icon.addEventListener("click" , ()=>
+$('.menu-icon').click(function() 
 {
-    menu_bar.classList.toggle("show");
+    
+    $('.menu').toggleClass('active');
+    $('.menu-icon i').toggleClass('fa-bars fa-times');
+  
 });
