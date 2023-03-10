@@ -8,7 +8,7 @@
     <title>Sign Up</title>
     <link rel="icon" href="assets/media_files/evee logo.png">
 
-    <link rel="stylesheet" href="assets/css_files/sign_up_page.css">
+    <link rel="stylesheet" href="../css_files/sign_up_page.css">
 </head>
 <body>
     
