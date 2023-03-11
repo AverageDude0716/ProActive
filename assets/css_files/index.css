@@ -41,36 +41,9 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  /*transform: translateY(-50%);*/
+  transform: translateY(-50%);
   right: 10px;
   display: none;
-}
-
-.bar 
-{
-  width: 25px;
-  height: 3px;
-  background-color: #333;
-  margin: 5px 0;
-}
-
-
-/* icon animation */
-.change .bar1 
-{
-  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
-  transform: rotate(-45deg) translate(-6px, 6px);
-}
-
-.change .bar2 
-{
-  opacity: 0;
-}
-
-.change .bar3 
-{
-  -webkit-transform: rotate(45deg) translate(-6px, -6px);
-  transform: rotate(45deg) translate(-6px, -6px);
 }
 
 
