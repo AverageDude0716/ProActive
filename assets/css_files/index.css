@@ -11,9 +11,7 @@
 }
 
 
-/*navbar*/
-.navbar 
-{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,21 +21,18 @@
   position: relative;
 }
 
-/*.logo 
-{
+.logo {
   font-size: 24px;
   font-weight: bold;
   text-decoration: none;
   color: #fff;
-}*/
+}
 
-/*menu icon*/
-.menu_toggle 
-{
+.menu-toggle {
   width: 30px;
   height: 30px;
-  /*background-image: url(menu-icon.png);
-  background-size: cover;*/
+  background-image: url(/assets/media_files/menu-icon.png);
+  background-size: cover;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -46,52 +41,40 @@
   display: none;
 }
 
-
-/*tabs*/
-.menu 
-{
+.menu {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.menu li 
-{
+.menu li {
   margin-right: 20px;
 }
 
-.menu li:last-child 
-{
+.menu li:last-child {
   margin-right: 0;
 }
 
-.menu a 
-{
+.menu a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
   transition: color 0.2s ease-in-out;
 }
 
-.menu a:hover 
-{
+.menu a:hover {
   color: #aaa;
 }
 
-
-/*login*/
-.login 
-{
+.login {
   font-weight: bold;
   text-decoration: none;
   color: #fff;
 }
 
-@media screen and (max-width: 768px) 
-{
-  .menu 
-  {
+@media screen and (max-width: 768px) {
+  .menu {
     display: none;
     flex-direction: column;
     position: absolute;
@@ -102,18 +85,15 @@
     padding: 10px;
   }
 
-  .menu_toggle 
-  {
+  .menu-toggle {
     display: block;
   }
 
-  .menu li 
-  {
+  .menu li {
     margin-bottom: 10px;
   }
 
-  .login 
-  {
+  .login {
     display: block;
     position: absolute;
     top: 50%;
