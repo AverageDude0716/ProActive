@@ -11,10 +11,8 @@ setInterval(function()
 
 
 // responsive top navigation bar
-const menu_icon = document.querySelector(".menu_icon");
-const menu_bar = document.querySelector(".menu_bar");
-
-menu_icon.addEventListener("click" , ()=>
+function toggle_Menu() 
 {
-    menu_bar.classList.toggle("show");
-});
+    var menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+  }
