@@ -92,6 +92,19 @@
   color: black;
 }
 
+.mobile_version
+{
+  display: none;
+}
+
+
+/*login form*/
+.login_form
+{
+  display: none;
+}
+
+
 /*mobile version*/
 
 @media (max-width: 768px)
@@ -102,10 +115,15 @@
   }
 
 
+  .mobile_version
+  {
+    display: block;
+  }
+  
+
   .mobile_navbar {
     overflow: hidden;
     background-color: #333;
-    /*position: relative;*/
   }
   
   .mobile_navbar div
