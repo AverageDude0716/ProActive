@@ -147,7 +147,7 @@
     font-size: 24px;
     padding: 14px 16px;
     margin-left: 18%;
-    margin-right: 15%;
+    margin-right: 15%
   }
 
 
@@ -157,8 +157,10 @@
     font-size: 17px;
     border-style: none;
     border-radius: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 10px;
+    position: absolute;
+    right: 0%;
+    top: 0;
     padding: 10px 12px;
   }
 
