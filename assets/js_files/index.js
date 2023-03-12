@@ -10,17 +10,11 @@ setInterval(function()
 })
 
 
-function menu_function()
-{
-
-    var mobile_menu = document.getElementById("mobile_menu");
-    if(mobile_menu.style.display == "none")
-    {
-        mobile_menu.style.display == "block";
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
-    else
-    {
-        mobile_menu.style.display == "none";
-    }
-
-}
+  }

@@ -94,120 +94,82 @@
 
 /*mobile version*/
 
-.mobile_version
+@media (max-width: 768px)
 {
-  display: none;
-}
-
-
-@media (max-width: 768px) 
-{
-
   .desktop_version
   {
     display: none;
   }
 
-  
-  .mobile_version
-  {
-    display: block;
-  }
 
-
-    .mobile_navbar
-  {
+  .mobile_navbar {
+    overflow: hidden;
     background-color: #333;
-    overflow: hidden;
-    align-items: center;
-    justify-content: space-between;
-    display: flex;
-  }
-
-
-  .mobile_menu
-  {
-    display: none;
-    /*flex-direction: column;
-    list-style: none;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    top: 100%;*/
-  }
-
-
-  .mobile_menu button
-  {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-
-
-  .mobile_menu button:hover
-  {
-    background-color: white;
-    color: black;
+    /*position: relative;*/
   }
   
-
-  .top_navbar
-  {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-  }
-
-
-  .top_navbar div
+  .mobile_navbar div
   {
     display: inline-block;
     text-align: center;
   }
 
 
-  .menu_icon
+  .icon
   {
-    border-style: none;
     background-color: inherit;
-    font-size: 20px;
-    cursor: pointer;
-    color: white;
-    margin: 5px;
+    font-size: 17px;
+    border-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
   }
 
 
-  .mobile_logo
-{
-  font-size: 34px;
-  font-weight: bold;
-  color: white;
-  margin-left: 90px;
-  margin-right: 90px;
-}
+  .active
+  {
+    background-color: inherit;
+    color: white;
+    font-size: 24px;
+    padding: 14px 16px;
+    margin-left: 20%;
+    margin-right: 19%;
+  }
 
 
-.mobile_login
-{
-  border-radius: 15%;
-  border-style: none;
-  margin: 10px;
-  padding: 10px;
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #333;
-  color: white;
-}
+  .mobile_login
+  {
+    background-color: white;
+    font-size: 17px;
+    border-style: none;
+    border-radius: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 12px;
+  }
 
-
-.mobile_login:hover
-{
-  background-color: white;
-  color: black;
-}
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobile_navbar #myLinks {
+    display: none;
+  }
+  
+  #myLinks button
+  {
+    background-color: inherit;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    border-style: none;
+    width: 100%;
+  }
+  
+  #myLinks button:hover
+  {
+    background-color: white;
+    color: black;
+  }
 
 }
