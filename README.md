@@ -1,7 +1,7 @@
 ## ProActive
 ProActive is an survey administartion software
 
-## What language you need to know first
+## What you need to know first
 - HTML
 - CSS
 - JavaScript
@@ -9,7 +9,7 @@ ProActive is an survey administartion software
 - JQuery
 - sqlite
 
-## what application you need
+## what applications you need
 
 - Git & Github - we need this to work at the same time
 
