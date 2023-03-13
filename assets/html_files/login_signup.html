@@ -12,29 +12,67 @@
 
 </head>
 <body>
-    
-    <!--desktop version-->
-    <div>
+    <!--use this if you want to edit the backgound-->
+   <div class="background">
 
-    </div>
+        <!--desktop version-->
+        <div class="desktop_version">
+
+            <form action="../php_files/login_signup_processor.php" method="post">
+                
+                <div class="desktop_login_form"
+                >
+                    <h1 class="eve">Evee</h1>
+
+                    <label for="username" class="username">Username</label>
+                    <input type="text" name="username" placeholder="Enter your Username">
+
+                    <label for="e-mail" class="e-mail">E-mail</label>
+                    <input type="text" name="e-mail" placeholder="Enter your E-mail">
+
+                    <label for="password" class="password">Password</label>
+                    <input type="password" name="password" placeholder ="Enter your Password">
+                    
+                    <button class="login" type="submit">Log In</button>
+                    <a class="forgot_password" href="">Forgot Password</a>
+
+                    <span class="acc">Don't have a account?<a class="signup" href="">Sign Up</a></span>
+                </div>
+            
+            </form>
+
+        </div>
 
 
-    <!--mobile version-->
-    <div>
+        <!--mobile version-->
+        <div class="mobile_version">
 
-        <form action="" method="post">
-             
-            <h1 class="eve">Evee</h1>
-            <input class="username" type="text" name="username" placeholder="E-mail or Phone Number">
-            <input class="password" type="password" name="password" placeholder ="Password">
-            <button class="login" type="submit">Log In</button>
-            <a class="forgot_password" href="">Forgot Password</a>
+            <form action="../php_files/login_signup_processor.php" method="post">
+                
+                <div class="mobile_login_form"
+                >
+                    <h1 class="eve">Evee</h1>
 
-            <span class="acc">Don't have a account?<a class="signup" href="">Sign Up</a></span>
-        
-        </form>
+                    <label for="username" class="username">Username</label>
+                    <input type="text" name="username" placeholder="Enter your Username">
 
-    </div>
+                    <label for="e-mail" class="e-mail">E-mail</label>
+                    <input type="text" name="e-mail" placeholder="Enter your E-mail">
+
+                    <label for="password" class="password">Password</label>
+                    <input type="password" name="password" placeholder ="Enter your Password">
+                    
+                    <button class="login" type="submit">Log In</button>
+                    <a class="forgot_password" href="">Forgot Password</a>
+
+                    <span class="acc">Don't have a account?<a class="signup" href="">Sign Up</a></span>
+                </div>
+            
+            </form>
+
+        </div>
+
+   </div>
     
     <script src="../js_files/login_signup.js"></script>
 </body>
