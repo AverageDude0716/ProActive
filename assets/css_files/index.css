@@ -83,6 +83,7 @@
   cursor: pointer;
   background-color: #333;
   color: white;
+  text-decoration: none;
 }
 
 
@@ -96,9 +97,6 @@
 {
   display: none;
 }
-
-
-/*login form*/
 
 
 /*mobile version*/
@@ -162,6 +160,8 @@
     right: 0%;
     top: 0;
     padding: 10px 12px;
+    text-decoration: none;
+    color: black;
   }
 
   
