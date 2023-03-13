@@ -11,11 +11,14 @@ setInterval(function()
 
 // mobile version
 function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
+    var menu = document.getElementById("myLinks");
+    if (menu.style.display == "none") 
+    {
+      menu.style.display = "block";
+    } 
+    else 
+    {
+      menu.style.display = "none";
     }
   }
 
