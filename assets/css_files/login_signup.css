@@ -1,3 +1,13 @@
 /*desktop version*/
 
 /*mobile version*/
+body
+{
+    background-image: linear-gradient(to bottom, red,yellow) ;
+}
+.eve
+{
+color: whitesmoke;
+position: relative;
+text-align: center;
+}
