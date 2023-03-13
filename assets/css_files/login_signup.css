@@ -22,12 +22,13 @@
 
 .desktop_login_form
 {
-    padding: 16px;
-    width: 35%;
+    padding: 3%;
+    width: 40%;
     height: 60%;
     margin: auto;
     margin-top: 7%;
     background-color: white;
+    border-radius: 3%;
 }
 
 .eve
@@ -40,7 +41,13 @@ text-align: center;
 input[type=text], input[type=password]
 {
     width: 100%;
+    padding: 6px;
 } 
+
+.login
+{
+    width: 100%;
+}
 
 
 /*mobile version*/
