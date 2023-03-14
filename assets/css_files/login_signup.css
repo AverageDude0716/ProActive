@@ -44,9 +44,10 @@ input[type=text], input[type=password]
     padding: 6px;
 } 
 
-.login
+.desktop_login
 {
     width: 100%;
+    margin: auto;
 }
 
 
