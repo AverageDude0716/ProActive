@@ -1,0 +1,93 @@
+/*background*/
+.background
+{
+    background-image: linear-gradient(to bottom, red,yellow) ;
+    /*para di umulit-ulit*/
+    background-repeat: no-repeat;
+    /*para buong screen*/
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/*desktop version*/
+
+.desktop_version
+{
+    display: block;
+}
+
+.desktop_login_form
+{
+    padding: 3%;
+    width: 40%;
+    height: 60%;
+    margin: auto;
+    margin-top: 7%;
+    background-color: white;
+    border-radius: 3%;
+}
+
+.eve
+{
+color: black;
+position: relative;
+text-align: center;
+}
+
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 6px;
+} 
+
+.desktop_login
+{
+    width: 100%;
+    margin: auto;
+}
+
+
+/*mobile version*/
+
+.mobile_version
+{
+    display: none;
+}
+
+@media (max-width: 768px)
+{
+    .desktop_version
+    {
+        display: none;
+    }
+
+    .mobile_version
+    {
+        display: block;
+    }
+
+    .mobile_login_form
+    {
+        padding: 16px;
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        background-color: white;
+    }
+
+    .eve
+    {
+    color: black;
+    position: relative;
+    text-align: center;
+    }
+
+    input[type=text], input[type=password]
+    {
+        width: 100%;
+    } 
+}

@@ -5,37 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Home</title>
-    <link rel="icon" href="assets/media_files/evee logo.png">
+    <title>ProActive</title>
+    <link rel="icon" href="assets/Evee_logo.png">
 
-    <link rel="stylesheet" href="assets/css_files/index.css">
+    <link rel="stylesheet" href="index.css">
 
-    <script src="assets/js_files/index.js"></script>
+    <script src="index.js"></script>
 
 </head>
 <body>   
     <div id="background">
 
-        <!--top Navigation Bar-->
-        <nav>
-            <div class="logo">My Website</div>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <a href="#" class="login-btn">Login</a>
-            <div class="hamburger" id="hamburger">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+        <!--desktop version-->
+        <div class="desktop_version">
+
+          <!--desktop navigation bar-->
+          <div class="desktop_navbar">
+
+            <div class="logo">ProActive</div>
+
+              <ul class="menu">
+                <li><button class="home" >Home</button></li>
+                <li><button class="about" >About</button></li>
+                <li><button class="faq" >FAQ</button></li>
+                <li><button class="contact" >Contact</button></li>
+              </ul>
+
+            <div>
+              <a href="src/login_signup/login_signup.html" class="login">Login</a>
             </div>
-        </nav>
+
+          </div>
+
+          <!--Content goes here-->
+
           
-          
-          
-          
+
+        </div>
+
+
+        <!--mobile version-->
+        <div class="mobile_version">
+
+          <!--mobile navigation bar-->
+            <div class="mobile_navbar">
+             <div>
+                <button class="icon" onclick="myFunction()">&#9776;</button>
+             </div>
+
+              <div class="active">ProActive</div>
+
+              <div>
+                <a href="src/login_signup/login_signup.html" class="mobile_login">Login</a>
+              </div>
+
+              <div id="myLinks">
+                <button>Home</button>
+                <button>About</button>
+                <button>FAQ</button>
+                <button>Contact</button>
+              </div>
+             
+            </div>
+
+            <!--content goes here-->
+  
+
+
+           </div>
+
 
     </div>
 </body>
