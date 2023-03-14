@@ -9,10 +9,11 @@
     
 </head>
 <body>
-    
+    <p>test</p>    
+
     <!--php-->
     <?php
-        
+        echo "hello world"
     ?>
 
 </body>
