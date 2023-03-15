@@ -71,20 +71,14 @@
   }
   
   /* The "Forgot password" text */
-  span.psw {
+  span.forgot_psw {
     float: right;
     padding-top: 16px;
   }
   
-  /* Change styles for span and cancel button on extra small screens */
-  @media screen and (max-width: 300px) {
-    span.psw {
-      display: block;
-      float: none;
-    }
-    .cancelbtn {
-      width: 100%;
-    }
+  .signup_link
+  {
+    cursor: pointer;
   }
 
 
@@ -162,7 +156,7 @@
   }
   
   /* The "Forgot password" text */
-  span.psw {
+  span.forgot_psw {
     display: block;
     float: none;
   }
