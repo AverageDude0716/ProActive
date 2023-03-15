@@ -1,7 +1,7 @@
 /*background*/
 .background
 {
-    background-color: blue;
+    background-image: linear-gradient(to bottom, #146C94, #19A7CE,#F6F1F1);
     height: 100%;
     width: 100%;
     position: fixed;
