@@ -7,7 +7,7 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    transition: background-color 1s ease;
+    background-image: linear-gradient(to bottom, #146C94, #19A7CE,#F6F1F1);
 }
 
 /*desktop version*/
@@ -20,7 +20,7 @@
 
 .desktop_navbar
 {
-  background-color: #333;
+  background-color: #146C94;
   overflow: hidden;
   align-items: center;
   justify-content: space-between;
@@ -81,9 +81,10 @@
   padding: 10px;
   font-size: 20px;
   cursor: pointer;
-  background-color: #333;
+  background-color: #146C94;
   color: white;
   text-decoration: none;
+  font-weight: 900;
 }
 
 
